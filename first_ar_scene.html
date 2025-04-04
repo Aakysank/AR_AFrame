@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene
+      vr-mode-ui="enabled: false"
+      renderer="colorManagement: true;"
+      webxr="requiredFeatures: hit-test;"
+      arjs>
+      
+      <a-camera position="0 1.6 0" look-controls="enabled: false"></a-camera>
+      <a-box position="0 0 -2" color="#4CC3D9" shadow></a-box>
+      
+    </a-scene>
+  </body>
+</html>
